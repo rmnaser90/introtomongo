@@ -7,6 +7,7 @@ const itemSchema = new Schema({
     qty: Number,
     isAvailable: Boolean,
     price: Number,
+    ownerId:String,
     otherSpecs: {}
 })
 
